@@ -1,7 +1,10 @@
-[![](https://images.microbadger.com/badges/image/jgeusebroek/webdav.svg)](https://microbadger.com/images/jgeusebroek/webdav "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/raigen/rpi-alpine-webdav.svg)](https://microbadger.com/images/raigen/rpi-alpine-webdav "Get your own image badge on microbadger.com")
+
+A Raspberry PI version of jgeusebroek's webdav container
+
 # Docker WebDAV image
 
-A tiny image running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Lighttpd](https://www.lighttpd.net/).
+A tiny image running [hypriot/rpi-alpine](https://github.com/hypriot/rpi-alpine) Linux and [Lighttpd](https://www.lighttpd.net/).
 
 ## Usage
 
