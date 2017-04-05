@@ -1,6 +1,6 @@
-FROM hypriot/rpi-alpine:3.4
+FROM hypriot/rpi-alpine:3.5
 
-RUN apk add --no-cache lighttpd lighttpd-mod_webdav lighttpd-mod_auth
+RUN apk add --update --no-cache lighttpd lighttpd-mod_webdav lighttpd-mod_auth
 
 VOLUME [ "/config", "/webdav" ]
 
